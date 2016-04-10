@@ -29,9 +29,9 @@ body {
 #linx a:visited {
   color: orange;
 }
+
 #linx a:hover{
   color: green;
-
 }
 
 @media screen and (max-width: 500px) {
