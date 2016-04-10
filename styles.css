@@ -1,3 +1,45 @@
 body {
   background-color: grey;
 }
+
+.pics {
+  padding: 2px;
+  border: 1px solid;
+}
+
+.pics img {
+  padding: 2px;
+}
+
+#subscribe {
+  margin-left: 25px;
+  width: 300px;
+  background-image: url("tomatoes_bushels.jpg");
+}
+
+.elegant {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+}
+
+.elegant p {
+  text-align: center;
+}
+
+#linx a:visited {
+  color: orange;
+}
+#linx a:hover{
+  color: green;
+
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: #85A3E9;
+  }
+  .pics img {
+    height: 90px;
+    width: 90px;
+  }
+}
