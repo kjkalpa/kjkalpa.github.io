@@ -1,3 +1,28 @@
 body {
   background-color: grey;
 }
+
+.pics {
+  padding: 2px;
+  border: 1px solid;
+}
+
+.pics img {
+  padding: 2px;
+}
+
+#subscribe {
+  margin-left: 25px;
+  width: 300px;
+  background-image: url("tomatoes_bushels.jpg");
+}
+
+.elegant {
+  font-family: 'Dancing Script', cursive;
+  font-size: 2em;
+}
+
+.elegant p {
+  text-align: center;
+}
+
