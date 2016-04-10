@@ -26,3 +26,20 @@ body {
   text-align: center;
 }
 
+#linx a:visited {
+  color: orange;
+}
+#linx a:hover{
+  color: green;
+
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: #85A3E9;
+  }
+  .pics img {
+    height: 90px;
+    width: 90px;
+  }
+}
